@@ -83,16 +83,14 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta property="og:title" content={post.title} />
-				<link rel="canonical" href={`https://www.love.khao.today/`} />
-				<meta property="og:description" content={The villagers panicked because a (post.excerpt)} />
-				<meta property="og:url" content={`https://www.love.khao.today/`} />
+				<meta property="og:title" content="The villagers panicked because a fierce 4-headed snake" />
+				<meta property="og:description" content="The villagers panicked because a fierce 4-headed snake" />
 				<meta property="og:type" content="article" />
 				<meta property="og:locale" content="en_US" />
-				<meta property="og:site_name" content={host.split('.')[0]} />
+				<meta property="og:site_name" content="https://www.love.khao.today/" />
 				<meta property="article:published_time" content={post.dateGmt} />
 				<meta property="article:modified_time" content={post.modifiedGmt} />
-				<meta property="og:image" content={post.featuredImage.node.sourceUrl} />
+				<meta property="og:image" content="https://www.love.khao.today/wp-content/uploads/2023/04/342012287_6314516433995_8966184321305360609_n.jpeg" />
 				<meta
 					property="og:image:alt"
 					content={post.featuredImage.node.altText || post.title}
